@@ -17,7 +17,6 @@ function Book(props){
         //     <tbody>
         //     <tr className="mb-3 p-2">
         <div>
-
         {people.map((book) => {
             const {id,img,amount} = book 
                return(
